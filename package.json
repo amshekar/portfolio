@@ -1,0 +1,46 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "live there application",
+  "main": "\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dgulpfile.js)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://amshekar@gitlab.com/bytes2bots/live-there.git"
+  },
+  "author": "bytes2bots\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dwww.\u001b[C\u001b[C\u001b[bytes2bots",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/bytes2bots/live-there/issues"
+  },
+  "homepage": "https://gitlab.com/bytes2bots/live-there#README",
+  "dependencies": {
+    "angular": "1.6.4",
+    "angular-animate": "1.6.2",
+    "angular-ui-router": "0.4.2",
+    "angular-sanitize": "^1.6.4",
+    "angular-resource": "^1.6.4",
+    "angular-translate": "^2.15.2",
+    "angular-translate-loader-partial":"^2.15.2",
+    "async": "^1.5.2",
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.15.0",    
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "json-file": "^0.1.0",    
+    "moment": "^2.12.0",    
+    "morgan": "^1.7.0",
+    "request": "^2.69.0",
+    "http-status": "^1.0.1",
+    "wagner-core": "^0.2.0",    
+    "serve-favicon": "^2.4.3"
+  },
+  "devDependencies": {
+    "gulp-jshint": "^2.0.4",
+    "jshint": "^2.9.4"
+  },
+  "engines": { "node": "6.9.1 || 8.1.x" }
+}
