@@ -5,7 +5,8 @@
         'app.core',
         [
             //3rd party dep
-            'ui.router'
+            'ui.router',
+            'pascalprecht.translate'
         ]);
 
 })(angular);

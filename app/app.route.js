@@ -1,7 +1,7 @@
 ﻿(function (module) {
     "use strict";
 
-    function config($locationProvider, $stateProvider, $urlRouterProvider) {
+    function config($translateProvider, $translatePartialLoaderProvider,$locationProvider, $stateProvider, $urlRouterProvider) {
         $urlRouterProvider.otherwise("/");
 
         $stateProvider
@@ -17,10 +17,10 @@
              controller: "ContactController"
          });
          
-        /*angular translate start
-
+        /*angular translate start*/
+        $translatePartialLoaderProvider.addPart('personal');
         $translateProvider.useLoader('$translatePartialLoader', {
-            'urlTemplate': './app/i18n/{part}/{lang}.json'
+            'urlTemplate': '/i18n/{part}/{lang}.json'
         });
         $translateProvider.useLoaderCache(true);
 
@@ -41,6 +41,6 @@
 
     }
 
-    config.$inject = ['$locationProvider','$stateProvider', '$urlRouterProvider'];
+    config.$inject = ['$translateProvider', '$translatePartialLoaderProvider','$locationProvider','$stateProvider', '$urlRouterProvider'];
     module.config(config);
 })(angular.module('portfolio'));

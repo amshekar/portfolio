@@ -1,7 +1,11 @@
 ﻿{
-	"addlisting": {
+	"Personal": {
 
-		"addlisting": "Addlisting"
+		"addlisting": "Addlisting",
+		"name":"H! I'm Shekar Gadamoni",
+		"aka":"aka amshekar",
+		"motivation":"Motivation",
+		"motivationquote":"Push Yourself, Because No One Else Is Going To Do It For You."
 		
 	}
 }

@@ -42,14 +42,14 @@
     <script src="/app.module.js"></script>
     <script src="/app.route.js"></script>
 </head>
-<body id="top">
+<body id="top" ng-cloak>
 
     <!-- Header -->
     <header id="header">
         <div class="inner">
             <a href="#" class="image avatar"><img src="/images/avatar.jpg" alt="" /></a>
             <h1>
-                <strong>H! I'm Shekar Gadamoni</strong>,<br />aka amshekar
+                <strong>{{'Personal.name' | translate }}</strong>,<br />{{'Personal.aka' | translate }}
                 <br />Developer,tech savy, learner and Engineer by passion in &lt;EPAM&gt;.<br />
                 <!--crafted by <a href="http://www.bytes2bots.com/" target="_blank">1001</a>.-->
             </h1>
@@ -72,8 +72,8 @@
                 <!--<li><a href="#" class="button">Learn More</a></li>-->
             </ul>
             <hr />
-            <h5>Motivation</h5>
-            <blockquote>Push Yourself, Because No One Else Is Going To Do It For You.</blockquote>
+            <h5>{{'Personal.motivation' | translate }}</h5>
+            <blockquote>{{'Personal.motivationquote' | translate }}</blockquote>
             <!--<h5>My Motivations</h5>
             <blockquote>Push Yourself, Because No One Else Is Going To Do It For You.</blockquote>-->
 

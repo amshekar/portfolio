@@ -14,16 +14,16 @@
         [
         "app.core"
         ]);
-      //  angular.module('portfolio').run(['$rootScope', '$translate', function ($rootScope, $translate) {
+        angular.module('portfolio').run(['$rootScope', '$translate', function ($rootScope, $translate) {
         /*angular translate code start*/
         //to make the fallback language work, we have to referesh() the translate manually.
-      //  $translate.refresh();
+       $translate.refresh();
 
-       // $rootScope.$on('$translatePartialLoaderStructureChanged', function () {
-       //     $translate.refresh();
-       // });
+        $rootScope.$on('$translatePartialLoaderStructureChanged', function () {
+           $translate.refresh();
+        });
         /*angular translate code ends*/
         
-  //  }]);
+    }]);
 
 })(angular);
