@@ -29,7 +29,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-
     <script src="https://cdn.rawgit.com/SlexAxton/messageformat.js/v1.0.2/messageformat.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular-animate.js"></script>
@@ -63,11 +62,11 @@
         <section id="one">
             <header class="major">
                 <h2>
-                    <strong>H! I'm Shekar Gadamoni</strong>,<br />
-                    busy in building future rather Resume.
+                    <strong>{{'Personal.name' | translate }}</strong>,<br />
+                    {{'Personal.headerquote' | translate}}
                 </h2>
             </header>
-            <p>I likes Aryabhata, without his invention of digit 0 am no more Software Engineer by profession in this 1001 era of one of the Engineering company which says Engineering is in our DNA. I'am technology enthusiast, I believe in continuous learning. Currently busy to become NiNja developer.</p>
+            <p>{{'Personal.voice' | translate}}</p>
             <ul class="actions">
                 <!--<li><a href="#" class="button">Learn More</a></li>-->
             </ul>
@@ -80,16 +79,15 @@
         </section>
         <!-- four -->
         <section id="four">
-            <h2>Things I Can Do</h2>
+            <h2>{{'Personal.sectionfourheader' | translate}}</h2>
             <div class="container">
-                <p>My technological forte is in MicroSoft Azure Development with  ASP.NET MVC 6, C#.Net, Web API 2,<br />Angular Js,Bootstrap, HTML 5,MEAN Stack development.</p>
+                <p>{{'Personal.sectionfourskills' |translate}}<br />{{'Personal.sectionfourskills2'|translate}}</p>
                 <ul class="feature-icons">
-                    <li class="icon fa-code">Write all the code</li>
-                    <li class="icon fa-pagelines">Cultivation</li>
-                    <li class="icon fa-rocket">Building Hobby Apps</li>
-                    <li class="icon fa-users">Hunting the likely minded people to work with.</li>
-                    <li class="icon fa-book">Learning new technologies</li>
-                    
+                    <li class="icon fa-code">{{'Personal.sectionfourhobby1'|translate}}</li>
+                    <li class="icon fa-pagelines">{{'Personal.sectionfourhobby2'|translate}}</li>
+                    <li class="icon fa-rocket">{{'Personal.sectionfourhobby3'|translate}}</li>
+                    <li class="icon fa-users">{{'Personal.sectionfourhobby4'|translate}}</li>
+                    <li class="icon fa-book">{{'Personal.sectionfourhobby5'|translate}}</li>                    
                    
                 </ul>
             </div>
@@ -98,7 +96,7 @@
 
         <!-- Two -->
         <section id="two">
-            <h2>Recent Hobby Apps</h2>
+            <h2>{{'Personal.sectiontwoheader' |translate}}</h2>
             <p>These are my hobby apps which i have developed by learning new technologies apart from my official professional work. </p>
             <div class="row">
                 <article class="6u 12u$(xsmall) work-item">

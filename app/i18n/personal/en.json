@@ -5,7 +5,17 @@
 		"name":"H! I'm Shekar Gadamoni",
 		"aka":"aka amshekar",
 		"motivation":"Motivation",
-		"motivationquote":"Push Yourself, Because No One Else Is Going To Do It For You."
-		
+		"motivationquote":"Push Yourself, Because No One Else Is Going To Do It For You.",
+		"headerquote":"busy in building future rather Resume.",
+		"voice":"I likes Aryabhata, without his invention of digit 0 am no more Software Engineer by profession in this 1001 era of one of the Engineering company which says Engineering is in our DNA. I'am technology enthusiast, I believe in continuous learning. Currently busy to become NiNja developer.",
+		"sectionfourheader":"Things I Can Do",
+		"sectionfourskills":"My technological forte is in MicroSoft Azure Development with  ASP.NET MVC 6, C#.Net, Web API 2,",
+		"sectionfourskills2":"Angular Js,Bootstrap, HTML 5,MEAN Stack development.",
+		"sectionfourhobby1":"Write all the code",
+		"sectionfourhobby2":"Cultivation",
+		"sectionfourhobby3":"Building Hobby Apps",
+		"sectionfourhobby4":"Hunting the likely minded people to work with.",
+		"sectionfourhobby5":"Learning new technologies",
+		"sectiontwoheader":"Recent Hobby Apps"
 	}
 }
